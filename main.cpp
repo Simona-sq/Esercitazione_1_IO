@@ -36,7 +36,10 @@ int main()
             // calcolo  la media
             double media_parziale = somma/counter;
             ofs << std::scientific << std::setprecision(16) << media_parziale << std::endl;
+            std::cout << std::scientific << std::setprecision(16) << media_parziale << std::endl;       
         }
+        std::cout << "\nL'output è riportato nel file result.txt" <<std::endl;
+
     ifs.close();
     ofs.close();
 }
